@@ -8,7 +8,7 @@ export ZSH="/home/ildar/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="avit"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -105,6 +105,5 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 
 source <(kubectl completion zsh)
-# alias vim="vim.tiny"
 alias x=ranger
 source ~/.fonts/*.sh
